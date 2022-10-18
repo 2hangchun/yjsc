@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    box-shadow: 0 0 5px  rgba(0, 0, 0, .5);
+    margin: 30px ;
+    border-radius: 10px;
+    .category{
+        padding: 10px;
+        flex: 1;
+        text-align: center;
+        &:nth-of-type(1){
+            border-right: 1px solid #000;
+        }
+        &.active{
+            color: #f55;
+        }
+    }
+}

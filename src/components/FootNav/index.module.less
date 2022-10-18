@@ -1,0 +1,31 @@
+.foot-nav{
+position: fixed;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 -5px 5px 0 rgba(0,0,0,.3);
+    ul{
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li{
+            height: 100%;
+            .nav-link{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                color:#000;
+                &.active{
+                    color:#0058a3
+                }
+                span{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
